@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		76AD1CEEAD4240ADFF81DD98 /* Pods_MyCustomStringConvertible_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5236570A91BFEAA483DA2CF3 /* Pods_MyCustomStringConvertible_Example.framework */; };
 		8919012009E4DE5E7D9DAFCC /* Pods_MyCustomStringConvertible_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCCDE9DE6F7E7A8F4ADEB7D /* Pods_MyCustomStringConvertible_Tests.framework */; };
+		8F9B6F1022A3C41F00B2F043 /* BaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B6F0F22A3C41F00B2F043 /* BaseItem.swift */; };
+		8F9B6F1222A3C47600B2F043 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B6F1122A3C47600B2F043 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0082BF1F2E9A7BC338C1F8C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1981729BC1F9203139029A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		25715CF7323C90F69572777A /* MyCustomStringConvertible.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCustomStringConvertible.podspec; path = ../MyCustomStringConvertible.podspec; sourceTree = "<group>"; };
+		0082BF1F2E9A7BC338C1F8C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1981729BC1F9203139029A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25715CF7323C90F69572777A /* MyCustomStringConvertible.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCustomStringConvertible.podspec; path = ../MyCustomStringConvertible.podspec; sourceTree = "<group>"; };
 		5236570A91BFEAA483DA2CF3 /* Pods_MyCustomStringConvertible_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCustomStringConvertible_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D93E714671479D8E061CDC8 /* Pods-MyCustomStringConvertible_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCustomStringConvertible_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyCustomStringConvertible_Tests/Pods-MyCustomStringConvertible_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyCustomStringConvertible_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCustomStringConvertible_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FA71B7BF2E7D627353A0069 /* Pods-MyCustomStringConvertible_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCustomStringConvertible_Example.release.xcconfig"; path = "Target Support Files/Pods-MyCustomStringConvertible_Example/Pods-MyCustomStringConvertible_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B482D77BAD9FBCEC40DBB54 /* Pods-MyCustomStringConvertible_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCustomStringConvertible_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyCustomStringConvertible_Example/Pods-MyCustomStringConvertible_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9B6F0F22A3C41F00B2F043 /* BaseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseItem.swift; sourceTree = "<group>"; };
+		8F9B6F1122A3C47600B2F043 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A5EA1FD59F0300BFA80ACA1A /* Pods-MyCustomStringConvertible_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCustomStringConvertible_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCustomStringConvertible_Tests/Pods-MyCustomStringConvertible_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ADCCDE9DE6F7E7A8F4ADEB7D /* Pods_MyCustomStringConvertible_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCustomStringConvertible_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +97,7 @@
 		607FACD21AFB9204008FA782 /* Example for MyCustomStringConvertible */ = {
 			isa = PBXGroup;
 			children = (
+				8F9B6F0E22A3C3F500B2F043 /* Models */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -139,6 +144,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8F9B6F0E22A3C3F500B2F043 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F9B6F0F22A3C41F00B2F043 /* BaseItem.swift */,
+				8F9B6F1122A3C47600B2F043 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B17F4F32723BA3853B7422F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +161,6 @@
 				5D93E714671479D8E061CDC8 /* Pods-MyCustomStringConvertible_Tests.debug.xcconfig */,
 				A5EA1FD59F0300BFA80ACA1A /* Pods-MyCustomStringConvertible_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +226,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 63ZVUM2RC3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -335,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9B6F1222A3C47600B2F043 /* Restaurant.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8F9B6F1022A3C41F00B2F043 /* BaseItem.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +499,7 @@
 			baseConfigurationReference = 8B482D77BAD9FBCEC40DBB54 /* Pods-MyCustomStringConvertible_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63ZVUM2RC3;
 				INFOPLIST_FILE = MyCustomStringConvertible/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +515,7 @@
 			baseConfigurationReference = 6FA71B7BF2E7D627353A0069 /* Pods-MyCustomStringConvertible_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63ZVUM2RC3;
 				INFOPLIST_FILE = MyCustomStringConvertible/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

@@ -1,0 +1,6 @@
+framework module MyCustomStringConvertible {
+  umbrella header "MyCustomStringConvertible-umbrella.h"
+
+  export *
+  module * { export * }
+}

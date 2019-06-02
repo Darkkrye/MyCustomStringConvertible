@@ -1,0 +1,16 @@
+PODS:
+  - MyCustomStringConvertible (0.1.0)
+
+DEPENDENCIES:
+  - MyCustomStringConvertible (from `../`)
+
+EXTERNAL SOURCES:
+  MyCustomStringConvertible:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyCustomStringConvertible: aa831419d489fe27c5a7ae2ea3a02678c7f827ba
+
+PODFILE CHECKSUM: 4240775b33377a5da4147015c6a201d84db8831e
+
+COCOAPODS: 1.6.0
